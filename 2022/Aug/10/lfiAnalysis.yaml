@@ -1,0 +1,18 @@
+date: 10 Aug 2022
+time: 05:26:48 UTC
+waf_version:
+- owasp/modsecurity-crs:apache
+web_server_version:
+- httpd:latest
+nuclei_templates_version: v9.1.4
+cves_tested: 346
+blocks: 285
+non_blocks: 59
+partial_blocks: 2
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: lfiReport.csv
+tag: lfi
+waf_url: null
