@@ -1,0 +1,18 @@
+date: 14 Aug 2022
+time: 12:34:06 UTC
+waf_version:
+- owasp/modsecurity-crs:apache
+web_server_version:
+- httpd:latest
+nuclei_templates_version: v9.1.5
+cves_tested: 11
+blocks: 1
+non_blocks: 5
+partial_blocks: 5
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: fileuploadReport.csv
+tag: fileupload
+waf_url: null
