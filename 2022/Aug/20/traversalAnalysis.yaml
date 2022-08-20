@@ -1,0 +1,16 @@
+date: 20 Aug 2022
+time: 05:33:48 UTC
+waf_version: owasp/modsecurity-crs@sha256:01b694db264b72c40955712365dd26dcbb7d7431b1335db2efeacd832ee1b377
+web_server_version: httpd@sha256:343452ec820a5d59eb3ab9aaa6201d193f91c3354f8c4f29705796d9353d4cc6
+nuclei_templates_version: v9.1.6
+cves_tested: 26
+blocks: 20
+non_blocks: 5
+partial_blocks: 1
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: traversalReport.csv
+tag: traversal
+waf_url: null
