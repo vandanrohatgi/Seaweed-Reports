@@ -1,0 +1,32 @@
+name: Auto Update
+
+on:
+  push:
+    branches:
+    - 'main'
+
+jobs:
+  Merge:
+    name: Merge branches
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: merge
+      run: |
+        for branch in lfi xss fileupload xxe injection traversal disclosure auth-bypass ssrf sqli oast rce
+        do
+          git merge -m "merge branch $branch"
+        done
+    - name: update latest
+      run: echo $(date -u +%Y/%b/%d) > latest.txt
+    
+    - name: commit & push
+      run: |
+         git config user.name github-actions
+         git config user.email github-actions@github.com
+         git add latest.txt
+         git diff --quiet && git diff --staged --quiet || git commit -m"Update latest.txt"
+         git push
