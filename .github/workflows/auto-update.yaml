@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - 'main'
+  workflow_dispatch:
 
 jobs:
   Merge:
@@ -15,11 +16,8 @@ jobs:
       uses: actions/checkout@v3
     
     - name: merge
-      run: |
-        for branch in lfi xss fileupload xxe injection traversal disclosure auth-bypass ssrf sqli oast rce
-        do
-          git merge -m "merge branch $branch"
-        done
+      run: git merge lfi xss fileupload xxe injection traversal disclosure auth-bypass ssrf sqli oast rce -m "merge all branches"
+
     - name: update latest
       run: echo $(date -u +%Y/%b/%d) > latest.txt
     
