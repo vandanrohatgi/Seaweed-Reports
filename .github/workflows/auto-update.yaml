@@ -18,7 +18,9 @@ jobs:
         fetch-depth: 0
     
     - name: merge
-      run: git merge lfi xss fileupload xxe injection traversal disclosure auth-bypass ssrf sqli oast rce -m "merge all branches"
+      run: |
+       git branch
+       git merge lfi xss fileupload xxe injection traversal disclosure auth-bypass ssrf sqli oast rce -m "merge all branches"
 
     - name: update latest
       run: echo $(date -u +%Y/%b/%d) > latest.txt
