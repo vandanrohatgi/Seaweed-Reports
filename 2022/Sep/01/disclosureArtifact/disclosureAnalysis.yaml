@@ -1,0 +1,16 @@
+date: 01 Sep 2022
+time: 11:27:04 UTC
+waf_version: owasp/modsecurity-crs@sha256:a7137608ee08b50a056d2e7ac7b426a410cad462a970acdcdabdac2ab92ad14b
+web_server_version: httpd@sha256:70999c4a17c796dd28f86f9c847b30f28abaed6ef1fd72a44282b1c941238804
+nuclei_templates_version: v9.1.7
+cves_tested: 25
+blocks: 7
+non_blocks: 18
+partial_blocks: 0
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: disclosureReport.csv
+tag: disclosure
+waf_url: null
