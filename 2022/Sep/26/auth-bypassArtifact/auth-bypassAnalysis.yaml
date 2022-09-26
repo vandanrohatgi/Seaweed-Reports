@@ -1,0 +1,16 @@
+date: 26 Sep 2022
+time: 03:23:15 UTC
+waf_version: owasp/modsecurity-crs@sha256:a71c2d401a94b9a536b10f9897234205f50ef341e8c483b46796a40d88ca4fee
+web_server_version: httpd@sha256:71e882df50adc606c57e46e5deb3c933288e2c7775472a639326d9e4e40a47c2
+nuclei_templates_version: v9.2.1
+cves_tested: 44
+blocks: 11
+non_blocks: 28
+partial_blocks: 5
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: auth-bypassReport.csv
+tag: auth-bypass
+waf_url: null
