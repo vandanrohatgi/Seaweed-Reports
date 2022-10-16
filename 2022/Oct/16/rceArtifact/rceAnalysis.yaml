@@ -1,0 +1,16 @@
+date: 16 Oct 2022
+time: 12:42:44 UTC
+waf_version: owasp/modsecurity-crs@sha256:a71c2d401a94b9a536b10f9897234205f50ef341e8c483b46796a40d88ca4fee
+web_server_version: httpd@sha256:4400fb49c9d7d218d3c8109ef721e0ec1f3897028a3004b098af587d565f4ae5
+nuclei_templates_version: v9.2.4
+cves_tested: 222
+blocks: 149
+non_blocks: 51
+partial_blocks: 22
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: rceReport.csv
+tag: rce
+waf_url: null
