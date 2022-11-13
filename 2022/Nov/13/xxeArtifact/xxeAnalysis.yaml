@@ -1,0 +1,16 @@
+date: 13 Nov 2022
+time: 12:37:25 UTC
+waf_version: owasp/modsecurity-crs@sha256:a71c2d401a94b9a536b10f9897234205f50ef341e8c483b46796a40d88ca4fee
+web_server_version: httpd@sha256:5fa96551b61359de5dfb7fd8c9e97e4153232eb520a8e883e2f47fc80dbfc33e
+nuclei_templates_version: v9.2.8
+cves_tested: 12
+blocks: 6
+non_blocks: 6
+partial_blocks: 0
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: xxeReport.csv
+tag: xxe
+waf_url: null
