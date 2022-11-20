@@ -1,0 +1,16 @@
+date: 20 Nov 2022
+time: 12:34:22 UTC
+waf_version: owasp/modsecurity-crs@sha256:a71c2d401a94b9a536b10f9897234205f50ef341e8c483b46796a40d88ca4fee
+web_server_version: httpd@sha256:f2e89def4c032b02c83e162c1819ccfcbd4ea6bdbc5ff784bbc68cba940a9046
+nuclei_templates_version: v9.2.8
+cves_tested: 373
+blocks: 310
+non_blocks: 61
+partial_blocks: 2
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: lfiReport.csv
+tag: lfi
+waf_url: null
