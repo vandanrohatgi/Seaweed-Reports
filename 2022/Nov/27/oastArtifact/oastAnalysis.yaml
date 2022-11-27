@@ -1,0 +1,16 @@
+date: 27 Nov 2022
+time: 12:31:59 UTC
+waf_version: owasp/modsecurity-crs@sha256:8ba8b540d8b5b0f142edb4599ae6dfd0cff9ccbef0e614d3a572ce0fb953212c
+web_server_version: httpd@sha256:f2e89def4c032b02c83e162c1819ccfcbd4ea6bdbc5ff784bbc68cba940a9046
+nuclei_templates_version: v9.2.9
+cves_tested: 71
+blocks: 56
+non_blocks: 12
+partial_blocks: 3
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: oastReport.csv
+tag: oast
+waf_url: null
