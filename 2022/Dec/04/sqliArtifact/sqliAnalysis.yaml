@@ -1,0 +1,16 @@
+date: 04 Dec 2022
+time: 12:31:37 UTC
+waf_version: owasp/modsecurity-crs@sha256:8ba8b540d8b5b0f142edb4599ae6dfd0cff9ccbef0e614d3a572ce0fb953212c
+web_server_version: httpd@sha256:f2e89def4c032b02c83e162c1819ccfcbd4ea6bdbc5ff784bbc68cba940a9046
+nuclei_templates_version: v9.3.0
+cves_tested: 75
+blocks: 65
+non_blocks: 2
+partial_blocks: 8
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: sqliReport.csv
+tag: sqli
+waf_url: null
