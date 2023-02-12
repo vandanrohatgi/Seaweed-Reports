@@ -1,0 +1,13 @@
+cve,blocked,name,severity,cvss-score,cwe-id,tags
+CVE-2019-9670,Not Blocked,Synacor Zimbra Collaboration <8.7.11p10 - XML External Entity Injection,critical,9.8,CWE-611,"cve,cve2019,zimbra,xxe,kev,edb,packetstorm"
+CVE-2019-2767,Blocked,Oracle Business Intelligence Publisher - XML External Entity Injection,high,7.2,None,"edb,cve,cve2019,oracle,xxe,oast"
+CVE-2022-28219,Blocked,Zoho ManageEngine ADAudit Plus <7600 - XML Entity Injection/Remote Code Execution,critical,9.8,CWE-611,"cve,cve2022,xxe,rce,zoho,manageengine,unauth"
+CVE-2021-32820,Blocked,Express-handlebars - Local File Inclusion,high,8.6,CWE-200,"cve,cve2021,expressjs,lfi,xxe"
+CVE-2020-11991,Not Blocked,Apache Cocoon 2.1.12 - XML Injection,high,7.5,CWE-611,"cve,cve2020,apache,xml,cocoon,xxe"
+CVE-2018-8033,Not Blocked,Apache OFBiz 16.11.04 - XML Entity Injection,high,7.5,CWE-200,"cve,cve2018,apache,ofbiz,xxe"
+CVE-2019-2616,Blocked,Oracle Business Intelligence/XML Publisher - XML External Entity Injection,high,7.2,None,"cve,cve2019,oracle,xxe,oast,kev,edb"
+CVE-2017-12629,Not Blocked,Apache Solr <= 7.1 - XML Entity Injection,critical,9.8,CWE-611,"oast,xxe,vulhub,cve,cve2017,solr,apache"
+CVE-2020-4463,Not Blocked,IBM Maximo Asset Management Information Disclosure - XML External Entity Injection,high,8.2,CWE-611,"cve,cve2020,ibm,xxe,disclosure"
+CVE-2021-27931,Blocked,LumisXP <10.0.0 - Blind XML External Entity Attack,critical,9.1,CWE-611,"cve,cve2021,lumis,xxe,oast,blind"
+CVE-2020-24589,Blocked,WSO2 API Manager <=3.1.0 - Blind XML External Entity Injection,critical,9.1,None,"cve,cve2020,wso2,xxe,oast,blind"
+CVE-2018-2392,Not Blocked,SAP Internet Graphics Server (IGS) - XML External Entity Injection,high,7.5,CWE-611,"cve,cve2018,sap,igs,xxe,xmlchart,msf"
