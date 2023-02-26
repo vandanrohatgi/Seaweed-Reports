@@ -1,0 +1,16 @@
+date: 26 Feb 2023
+time: 12:28:54 UTC
+waf_version: owasp/modsecurity-crs@sha256:86ba649049ef3e79078852b304c1b4e688fe8ab1d1f64741eca491902c359433
+web_server_version: httpd@sha256:db2d897cae2ad67b33435c1a5b0d6b6465137661ea7c01a5e95155f0159e1bcf
+nuclei_templates_version: v9.3.7
+cves_tested: 1441
+blocks: 1053
+non_blocks: 330
+partial_blocks: 58
+cve_id: null
+directory: null
+format: csv
+full_report: true
+out_file: null
+tag: lfi,xss,fileupload,xxe,injection,traversal,disclosure,auth-bypass,ssrf,sqli,oast,rce
+waf_url: null
